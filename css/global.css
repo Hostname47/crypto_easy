@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: #eee;
+    font-family: Helvetica;
+}
+
+a, input, textarea {
+    outline: none;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-arround {
+    justify-content: space-around;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.suboptions-container {
+    display: none;
+    position: absolute;
+    right: 0;
+}
+
+.suboptions-container-style-1 {
+    width: 120px;
+    top: 100%;
+    background-color: rgb(255, 255, 255);
+
+    box-shadow: 0 0 4px 0.1px rgb(0, 0, 0);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.option-style-1 {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-top: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.option-style-1:hover {
+    background-color: rgb(224, 224, 224);
+}
